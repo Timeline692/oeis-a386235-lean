@@ -2,15 +2,21 @@
 
 Define
 
-$$a(n)=\#\{(p,q,r)\in\mathbb Z_{>0}^3:p+q+r=n,\ p+11q+13r\text{ is a square}\}.$$
+$$
+a(n)=\operatorname{card}\{(p,q,r)\in\mathbb Z_{>0}^3:p+q+r=n,\ p+11q+13r\text{ is a square}\}.
+$$
 
 Let
 
-$$K=\frac{1-66\sqrt{11}+65\sqrt{13}}{180}.$$
+$$
+K=\frac{1-66\sqrt{11}+65\sqrt{13}}{180}.
+$$
 
 For every integer $n\ge3$,
 
-$$|a(n)-Kn^{3/2}|\le20\sqrt n.$$
+$$
+|a(n)-Kn^{3/2}|\le20\sqrt n.
+$$
 
 Consequently, $a(n)=Kn^{3/2}+O(\sqrt n)$ and $a(n)\sim Kn^{3/2}$.
 
