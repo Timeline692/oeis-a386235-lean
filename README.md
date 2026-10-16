@@ -3,7 +3,7 @@
 Define
 
 $$
-a(n)=\operatorname{card}\{(p,q,r)\in\mathbb Z_{>0}^3:p+q+r=n,\ p+11q+13r\text{ is a square}\}.
+a(n)=\left|\{(p,q,r)\in\mathbb Z_{>0}^3:p+q+r=n,\ p+11q+13r\text{ is a square}\}\right|.
 $$
 
 Let

@@ -9,7 +9,7 @@
 记
 
 $$
-a(n)=\operatorname{card}\{(p,q,r)\in\mathbb Z_{>0}^3:p+q+r=n,\ p+11q+13r\text{ 是完全平方数}\}.
+a(n)=\left|\{(p,q,r)\in\mathbb Z_{>0}^3:p+q+r=n,\ p+11q+13r\text{ 是完全平方数}\}\right|.
 $$
 
 三元组有序，不要求 $p\le q\le r$。令
@@ -121,7 +121,7 @@ $$
 因为
 
 $$
-\operatorname{card}\mathcal M_n\le\lfloor\sqrt C\rfloor+1\le\sqrt{13n}+1,
+|\mathcal M_n|\le\lfloor\sqrt C\rfloor+1\le\sqrt{13n}+1,
 $$
 
 求和得到
